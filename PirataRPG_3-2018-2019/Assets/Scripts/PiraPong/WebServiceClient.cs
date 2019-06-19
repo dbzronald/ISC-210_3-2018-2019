@@ -21,7 +21,7 @@ public class WebServiceClient : MonoBehaviour
 
         if (Input.GetButtonDown("Fire2"))
         {
-            StartCoroutine(PostRequest("https://localhost:44311/api/values"));
+            StartCoroutine(PostRequest("https://isc2103-2018-2019rpgwebapi.azurewebsites.net/api/Scores"));
         }
     }
 
