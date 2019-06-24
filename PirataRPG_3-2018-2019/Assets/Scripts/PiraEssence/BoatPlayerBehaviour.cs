@@ -10,6 +10,9 @@ public class BoatPlayerBehaviour : MonoBehaviour
 
     private const float VERTICALUPPERLIMIT = 4f, VERTICALLOWERLIMIT = -4f;
 
+    public int HitPoints;
+
+
     private Animator animator;
     // Start is called before the first frame update
     void Awake()
@@ -27,5 +30,17 @@ public class BoatPlayerBehaviour : MonoBehaviour
         gameObject.transform.Translate(_deltaPos);
         gameObject.transform.position = new Vector3(gameObject.transform.position.x, Mathf.Clamp(gameObject.transform.position.y,
             VERTICALLOWERLIMIT, VERTICALUPPERLIMIT));
+    }
+
+    public void OnHitted()
+    {
+        HitPoints--;
+        Destroy(GameObject.Find("HitPoints").transform.GetChild(0).gameObject);
+
+        if (HitPoints == 0)
+        {
+            //GameOver
+            Destroy(gameObject);
+        }
     }
 }
