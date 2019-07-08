@@ -11,6 +11,10 @@ TagManager:
   - Red
   - Yellow
   - Enemy
+  - Play
+  - Exit
+  - Block
+  - SBlock
   layers:
   - Default
   - TransparentFX
