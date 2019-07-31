@@ -14,4 +14,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Brick.unity
     guid: d742ccebd6688de46a2059004be40562
+  - enabled: 1
+    path: Assets/Scenes/ExplorationLevel.unity
+    guid: 46e18857771e2884f86272d51debe842
+  - enabled: 1
+    path: Assets/Scenes/Essence.unity
+    guid: 7b5ef1cc431ec424fafe7bc0d54b7780
+  - enabled: 1
+    path: Assets/Scenes/Plataformer.unity
+    guid: 9efa44f4c311ee343bfa08d69f476afe
+  - enabled: 1
+    path: Assets/Scenes/Tavern.unity
+    guid: 1011cac83a9ae90458cddf3d4885fae6
+  - enabled: 1
+    path: Assets/Scenes/Test.unity
+    guid: 63c2e94e189a53f4fa89339c8e7542bc
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 946f24f6d3efd4b45ac8e45114ca6e73
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: e7a5c947b746a1a408bbc947975eded8
   m_configObjects: {}

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class CollectableBehaviour : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class CollectableBehaviour : MonoBehaviour
     private BoatPlayerBehaviour boatPlayerBehaviour;
 
     private ScoreController scoreController;
+
+    private int cont = 0;
 
     // Start is called before the first frame update
 
@@ -39,14 +42,36 @@ public class CollectableBehaviour : MonoBehaviour
 
     private  void OnTriggerEnter(Collider other)
     {
-        if (gameObject.tag == "Enemy" && other.gameObject.name == "Player")
+        if (other.gameObject.name != "Player")
+        {
+            return;
+        }
+
+        if (gameObject.tag == "Enemy")
         {
             boatPlayerBehaviour.OnHitted();
         }
+
         else
         {
             scoreController.AddEssence(gameObject.tag);
+            cont = cont + 1;
             Destroy(gameObject);
         }
+
+        StartCoroutine(PostRequest("http://localhost:3000/api/Scoreboards"));
+    }
+
+
+    IEnumerator PostRequest(string url)
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("puntaje", cont);
+
+        UnityWebRequest uwr = UnityWebRequest.Post(url, form);
+        yield return uwr.SendWebRequest();
+
+        Debug.Log("Recibido: " + uwr.downloadHandler.text);
+
     }
 }

@@ -1,50 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="72" height="40" tilewidth="128" tileheight="128" infinite="0" nextlayerid="2" nextobjectid="1">
- <tileset firstgid="1" source="Grass.tsx"/>
- <tileset firstgid="5" source="Trees.tsx"/>
- <tileset firstgid="15" source="Patrones.tsx"/>
- <layer id="1" name="Tile Layer 1" width="72" height="40">
-  <data encoding="csv">
-<row><![CDATA[GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQeeeeeeeUeeeeeeePAAAAAAAAAAAAAAAAAAAAA]]></row>
-<row><![CDATA[ACBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAfAAAAAAAfAAAAAAAAAAAAAAAAAAAAA]]></row>
-<row><![CDATA[ACZBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAfAAAAAAAfAAAAAAAAAAAAAAAAAAAAA]]></row>
-<row><![CDATA[AAfAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAfAAAAAAAfAAAAAAAfAAAAAAAAAAAAAAAAAAAAA]]></row>
-<row><![CDATA[AAfAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAReeeeeeeTeeeeeeeSAAAAAAHAAAAAAAAAAAAAA]]></row>
-<row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></row>
-<row><![CDATA[AAfAAAAAAIAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAHAAAAAAAAAA]]></row>
-<row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></row>
-<row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAIAAAAIAAAAAAAAAAF]]></row>
-<row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAAAfAAAAAAAHAAAAIAAAAHAHAAAFAAAAO]]></row>
-<row><![CDATA[AAfAAAAAAAIAAAAAAIAAAAAAAAAAAAAAIAAAAAAAAAfAAAAAAAAAHAHAAAHAAAAAAAAAFAFK]]></row>
-<row><![CDATA[AAfAAAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAfAAAAAAAIAAAAAAAAAAAAAHAAOAKKC]]></row>
-<row><![CDATA[AAfAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAOAKCCA]]></row>
-<row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAfAAAAAAAAAAAAAAAAAAAAAAFKCCAAA]]></row>
-<row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAIAAAAAAAKCCAAAAA]]></row>
-<row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAKCAAAAAAA]]></row>
-<row><![CDATA[AARddddddddddddddddddddUeeeeeeeeeeeeeeeeeeTeeeeeeeeeeeeeeeeeeeeAAAAAAAAA]]></row>
-<row><![CDATA[AAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAKCAAAAACA]]></row>
-<row><![CDATA[AAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAANAAAAAGAAAAAOKCCAAAAA]]></row>
-<row><![CDATA[AAAAAAAIAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAfANAAAAAAGAAAAAAAGAAAAOAKCCAAA]]></row>
-<row><![CDATA[AAAAAAAAAAAAAAAAAIAAAAAfAAAAAAAAAAAAAAAAAAfAAAGAAAAAAAAAAAAAAAAAAFAFKCCA]]></row>
-<row><![CDATA[AAAAAAAAAAAIAAAAAAAAAAAfAAAAIAAAAAAAAIAAAAfAAGNAAAAAAAAAAAAAAGAAAAAOAKKC]]></row>
-<row><![CDATA[AAAAAAAAAAAAAAIAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAAAAGAANAAAANNAAAFAFAOK]]></row>
-<row><![CDATA[AAAAAAAAAAAAAAAAAAAIAAAfAAAAAAAAAAAAAAAAAAfAAGANAGAAAAAAAAAAAAAAAAAAAOAO]]></row>
-<row><![CDATA[AAAAAAAAIAAAAAIAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAANAAAAAAAAAAAAAAA]]></row>
-<row><![CDATA[AAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAIAAAAAAAAAfAAAAAAAAAAAAMMMAAAAGAAAAAAAAA]]></row>
-<row><![CDATA[AAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAIAAAfAAAAAAGAAAMMAAAMMAAAAAAAAAAAA]]></row>
-<row><![CDATA[AAAAGGAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAGAAAAAAAMAAAAAMAAAAAAAGGAAA]]></row>
-<row><![CDATA[AGAGAAGGAAAAAAAAAIAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAAAMAAAAAAAMAAAAAANAAAA]]></row>
-<row><![CDATA[GAGGGGGGGGAAAAAAAAAAAAAfAAAAIAAAAAIAAAAAAAfAAAAANAANMAAANAAAMNAANAAAAAAA]]></row>
-<row><![CDATA[AGGAAAAAGAGAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAAAMAAAAAAAMAAAAAAANAAA]]></row>
-<row><![CDATA[GGAAAAAAAGAGAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAAAAMAAAAAMAAAAAAAAAAAA]]></row>
-<row><![CDATA[GAAAAAAAAAGGAAAAAAAAAAAfAAAAAAAAAAAAIAAAAAfAAAAAAAAAAMMAAAMMAAAAAAAAAAAA]]></row>
-<row><![CDATA[GAAAAAAAAAGGGAAAAAAAAAAfAAAAAIAAAAAAAAAAAAfAAAAGAAAAAAAMMMAAAAAAAGAAAAAA]]></row>
-<row><![CDATA[GAAAAAAAAAGAYddddddddddSAAAAAAAAAAAAAAAABBBBBAAAAAAAAAAANAAAAAAAAAAAAAAA]]></row>
-<row><![CDATA[GAAAAAAAAAGGGAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAANGGAAAAAAAAAAAAAAAAAAGA]]></row>
-<row><![CDATA[GAAAAAAAAAGAGAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAABAAANNAAAANAAAAAAAAAAAAAGA]]></row>
-<row><![CDATA[GGAAAAAAAGAGGAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAAABAAAAANAAAAAAAAGAAAAAAAAAA]]></row>
-<row><![CDATA[AGGAAAAAGGGGAGAAAAAAAAAAAAAAAAAAAAIAAABAAAAAAAABAAAAAGAAAAAAAAAAAGAAAAAA]]></row>
-<row><![CDATA[GGGGGGGGGGAAGAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBAAAAAAAAAAAAAAAAAAAAAAA]]></row>
-</data>
- </layer>
-</map>
+<level>
+  <map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="72" height="40" tilewidth="128" tileheight="128" infinite="0" nextlayerid="2" nextobjectid="1">
+    <row><![CDATA[GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQeeeeeeeUeeeeeeePAAAAAAAAAAAAAAAAAAAAA]]></row>
+    <row><![CDATA[ACBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAfAAAAAAAfAAAAAAAAAAAAAAAAAAAAA]]></row>
+    <row><![CDATA[ACZBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAfAAAAAAAfAAAAAAAAAAAAAAAAAAAAA]]></row>
+    <row><![CDATA[AAfAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAfAAAAAAAfAAAAAAAfAAAAAAAAAAAAAAAAAAAAA]]></row>
+    <row><![CDATA[AAfAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAReeeeeeeTeeeeeeeSAAAAAAHAAAAAAAAAAAAAA]]></row>
+    <row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></row>
+    <row><![CDATA[AAfAAAAAAIAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAHAAAAAAAAAA]]></row>
+    <row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></row>
+    <row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAIAAAAIAAAAAAAAAAF]]></row>
+    <row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAAAfAAAAAAAHAAAAIAAAAHAHAAAFAAAAO]]></row>
+    <row><![CDATA[AAfAAAAAAAIAAAAAAIAAAAAAAAAAAAAAIAAAAAAAAAfAAAAAAAAAHAHAAAHAAAAAAAAAFAFK]]></row>
+    <row><![CDATA[AAfAAAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAfAAAAAAAIAAAAAAAAAAAAAHAAOAKKC]]></row>
+    <row><![CDATA[AAfAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAOAKCCA]]></row>
+    <row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAfAAAAAAAAAAAAAAAAAAAAAAFKCCAAA]]></row>
+    <row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAIAAAAAAAKCCAAAAA]]></row>
+    <row><![CDATA[AAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAKCAAAAAAA]]></row>
+    <row><![CDATA[AARddddddddddddddddddddUeeeeeeeeeeeeeeeeeeTeeeeeeeeeeeeeeeeeeeeAAAAAAAAA]]></row>
+    <row><![CDATA[AAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAKCAAAAACA]]></row>
+    <row><![CDATA[AAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAANAAAAAGAAAAAOKCCAAAAA]]></row>
+    <row><![CDATA[AAAAAAAIAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAfANAAAAAAGAAAAAAAGAAAAOAKCCAAA]]></row>
+    <row><![CDATA[AAAAAAAAAAAAAAAAAIAAAAAfAAAAAAAAAAAAAAAAAAfAAAGAAAAAAAAAAAAAAAAAAFAFKCCA]]></row>
+    <row><![CDATA[AAAAAAAAAAAIAAAAAAAAAAAfAAAAIAAAAAAAAIAAAAfAAGNAAAAAAAAAAAAAAGAAAAAOAKKC]]></row>
+    <row><![CDATA[AAAAAAAAAAAAAAIAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAAAAGAANAAAANNAAAFAFAOK]]></row>
+    <row><![CDATA[AAAAAAAAAAAAAAAAAAAIAAAfAAAAAAAAAAAAAAAAAAfAAGANAGAAAAAAAAAAAAAAAAAAAOAO]]></row>
+    <row><![CDATA[AAAAAAAAIAAAAAIAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAANAAAAAAAAAAAAAAA]]></row>
+    <row><![CDATA[AAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAIAAAAAAAAAfAAAAAAAAAAAAMMMAAAAGAAAAAAAAA]]></row>
+    <row><![CDATA[AAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAIAAAfAAAAAAGAAAMMAAAMMAAAAAAAAAAAA]]></row>
+    <row><![CDATA[AAAAGGAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAGAAAAAAAMAAAAAMAAAAAAAGGAAA]]></row>
+    <row><![CDATA[AGAGAAGGAAAAAAAAAIAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAAAMAAAAAAAMAAAAAANAAAA]]></row>
+    <row><![CDATA[GAGGGGGGGGAAAAAAAAAAAAAfAAAAIAAAAAIAAAAAAAfAAAAANAANMAAANAAAMNAANAAAAAAA]]></row>
+    <row><![CDATA[AGGAAAAAGAGAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAAAMAAAAAAAMAAAAAAANAAA]]></row>
+    <row><![CDATA[GGAAAAAAAGAGAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAfAAAAAAAAAAMAAAAAMAAAAAAAAAAAA]]></row>
+    <row><![CDATA[GAAAAAAAAAGGAAAAAAAAAAAfAAAAAAAAAAAAIAAAAAfAAAAAAAAAAMMAAAMMAAAAAAAAAAAA]]></row>
+    <row><![CDATA[GAAAAAAAAAGGGAAAAAAAAAAfAAAAAIAAAAAAAAAAAAfAAAAGAAAAAAAMMMAAAAAAAGAAAAAA]]></row>
+    <row><![CDATA[GAAAAAAAAAGAYddddddddddSAAAAAAAAAAAAAAAABBBBBAAAAAAAAAAANAAAAAAAAAAAAAAA]]></row>
+    <row><![CDATA[GAAAAAAAAAGGGAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAANGGAAAAAAAAAAAAAAAAAAGA]]></row>
+    <row><![CDATA[GAAAAAAAAAGAGAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAABAAANNAAAANAAAAAAAAAAAAAGA]]></row>
+    <row><![CDATA[GGAAAAAAAGAGGAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAAABAAAAANAAAAAAAAGAAAAAAAAAA]]></row>
+    <row><![CDATA[AGGAAAAAGGGGAGAAAAAAAAAAAAAAAAAAAAIAAABAAAAAAAABAAAAAGAAAAAAAAAAAGAAAAAA]]></row>
+    <row><![CDATA[GGGGGGGGGGAAGAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBAAAAAAAAAAAAAAAAAAAAAAA]]></row>
+  </map>
+  <characters>
+    <character id="0" uniqueObjectName="Player" prefabName="Player" posX="32" posY="17" tag="Player"/>
+    <character id="1" uniqueObjectName="Carlos" prefabName="Player" posX="38" posY="11" tag="NPC"/>
+    <character id="2" uniqueObjectName="Pedro" prefabName="Player" posX="22" posY="11" tag="NPC"/>
+    <character id="3" uniqueObjectName="Juan" prefabName="Player" posX="32" posY="17" tag="NPC"/>
+    <character id="4" uniqueObjectName="Enemy 1" prefabName="Player" posX="38" posY="11" tag="Enemy"/>
+    <character id="5" uniqueObjectName="Enemy 2" prefabName="Player" posX="8" posY="20" tag="Enemy"/>
+    <character id="6" uniqueObjectName="Enemy 3" prefabName="Player" posX="55" posY="27" tag="Enemy"/>
+    <character id="7" uniqueObjectName="Enemy 4" prefabName="Player" posX="64" posY="3" tag="Enemy"/>
+  </characters>
+
+  <items>
+    <item id ="0" uniqueObjectName ="Chest1" prefabName ="ChestBlue" posX ="1" posY ="36" tag="EssenceItem"/>
+    <item id ="1" uniqueObjectName ="Chest2" prefabName ="ChestYellow" posX ="30" posY ="39" tag="EssenceItem"/>
+    <item id ="2" uniqueObjectName ="Chest3" prefabName ="ChestRed" posX ="57" posY ="39" tag="EssenceItem"/>
+    <item id ="3" uniqueObjectName ="Chest4" prefabName ="ChestOrange" posX ="38" posY ="30" tag="EssenceItem"/>
+    <item id ="4" uniqueObjectName ="Chest5" prefabName ="ChestPurple" posX ="15" posY ="28" tag="EssenceItem"/>
+    <item id ="5" uniqueObjectName ="Chest6" prefabName ="ChestGreen" posX ="57" posY ="7" tag="EssenceItem"/>
+    <item id ="6" uniqueObjectName ="CaveEntrance" prefabName ="CaveEntrance" posX="" posY="" tag=""/>
+  </items>
+
+  <missions>
+    <mission id="1" description ="Entrar a la cueva donde esta guardado el cafe." prerrequisites="" quantity="">
+
+      <tasks>
+        <task id="1A" description ="Hablar con Carlos." prerrequisites ="">
+          <conditions>
+            <condition type="CloseTo" uniqueObjectNameFrom="Player" uniqueObjectNameTo="Carlos" quantity=""/>
+            <condition type="KeyPressed" uniqueObjectNameFrom="Submit" uniqueObjectNameTo="" quantity=""/>
+          </conditions>
+          <actions>
+            <action type="ShowMessage" uniqueObjectNameFrom="Buscame mi cafe. Esta en la cueva."/>
+          </actions>
+        </task>
+      </tasks>
+
+      <tasks>
+        <task id="1B" description ="Ir a la cueva." prerrequisites ="1A">
+          <conditions>
+            <condition type="CloseTo" uniqueObjectNameFrom="Player" uniqueObjectNameTo="CaveEntrance" quantity=""/>
+          </conditions>
+          <actions>
+            <action type="ShowMessage" uniqueObjectNameFrom="...regrase donde Carlos, porque esta cerrada." quantity=""/>
+          </actions>
+        </task>
+      </tasks>
+
+      <tasks>
+        <task id="1C" description ="Volver hablar con Carlos." prerrequisites="1B">
+          <conditions>
+            <condition type="CloseTo" uniqueObjectNameFrom="Player" uniqueObjectNameTo="Carlos" quantity=""/>
+            <condition type="KeyPressed" uniqueObjectNameFrom="Submit" uniqueObjectNameTo="" quantity=""/>
+          </conditions>
+          <actions>
+            <action type="ShowMessage" uniqueObjectNameFrom="Se me olvido decirte que perdi la llave."/>
+          </actions>
+        </task>
+      </tasks>
+
+
+      <tasks>
+        <task id="1D" description ="Hablar con Pedro.">
+          <conditions>
+            <condition type="CloseTo" uniqueObjectNameFrom="Player" uniqueObjectNameTo="Pedro" quantity=""/>
+            <condition type="KeyPressed" uniqueObjectNameFrom="Submit" uniqueObjectNameTo="" quantity=""/>
+          </conditions>
+          <actions>
+            <action type="ShowMessage" uniqueObjectNameFrom="Vinieron unos bandidos y se la llevaron." quantity=""/>
+          </actions>
+        </task>
+      </tasks>
+
+
+      <tasks>
+        <task id="1E" description ="Matar un bandido.">
+          <conditions>
+            <condition type="Destroyed" uniqueObjectNameFrom="Player" uniqueObjectNameTo="Enemy1" quantity=""/>
+            <condition type="KeyPressed" uniqueObjectNameFrom="Submit" uniqueObjectNameTo="" quantity=""/>
+          </conditions>
+          <actions>
+            <action type="InventoryAdd" uniqueObjectNameFrom="Key1" quantity="1"/>
+            <action type="ShowMessage" uniqueObjectNameFrom="Has conseguido la llave."/>
+          </actions>
+        </task>
+      </tasks>
+
+      <tasks>
+        <task id="1F" description ="Volver a la cueva.">
+          <conditions>
+            <action type="CloseTo" uniqueObjectNameFrom="Player" uniqueObjectNameTo="CaveEntrance" quantity=""/>
+            <action type="Inventoried" uniqueObjectNameFrom ="Key1" quantity=""/>
+          </conditions>
+          <actions>
+            <action type="LoadScene" uniqueObjectNameFrom="Platformer"/>
+          </actions>
+        </task>
+      </tasks>
+
+    </mission>
+  </missions>
+</level>

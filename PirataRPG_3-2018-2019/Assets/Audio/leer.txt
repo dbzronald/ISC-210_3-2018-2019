@@ -1,0 +1,7 @@
+//Leer archivo de hadoop
+
+test = spark.read.option("header", "true") \
+    .option("delimiter", "\t") \
+    .option("inferSchema", "true") \
+    .csv("hdfs://localhost:9000/test")
+	

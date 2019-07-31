@@ -1,0 +1,29 @@
+Lista de Bugs Plataforma
+
+Login de admin:
+ - Administracion > Lista de Frameworks > Importar a Moodle : El boton tira un http 400 - bad request.
+ - Administracion > Crear competencias > Importar a Moodle : El boton tira un http 400 - bad request.
+ - Cursos > Lista de Cursos > Importar a Moodle : El boton tira un http 400 - bad request.
+ - Lista de Cursos > Export a CSV : No exporta todos (posiblemente mejor quitarlo).
+ - Lista de Cursos > Configurar Escalas : No tiene ni CSS (cual es su utilidad? mejor borrarlo?).
+ - Lista de Cursos > Detalle de Curso > Agregar competencias : aun no se agregan.
+ - Lista de Cursos > Detalle de Curso > Subir a Moodle : Tira error.
+ - Lista de Cursos > Detalle de Curso > Sincronizar con moodle: No hace nada (o no indica lo que hace?).
+ - Agregar cambio por cohorte.
+ 
+Login de estudiante:
+ - Curso > Compentencias por curso parece que se bugeo otra vez (borrarlo? o hacerle otro fix?).
+ - Poner valores reales a la card del plan estudiantil del estudiante.
+ - El boton de Dashboard explota.
+ - Agregar los fileurl en estudiante tambien.
+ 
+Login de profesor:
+ - Lista de Cursos > Detalle de Curso > Agregar competencias : aun no se agregan (eso va ahi? no deberia ser solo de admin?).
+ - Lista de Cursos > Detalle de Curso > Subir a Moodle : Tira error.
+ - Lista de Cursos > Detalle de Curso > Sincronizar con moodle: No hace nada (o no indica lo que hace?).
+ - Boton actividades en la barra del dashboard explota.
+ - Actividades : la ultima de nombre (new) por alguna razon explota.
+ - Agregar graficas.
+
+
+ 
